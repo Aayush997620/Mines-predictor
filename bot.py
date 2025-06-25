@@ -13,7 +13,7 @@ import json
 from datetime import datetime
 
 # --- Configuration ---
-BOT_TOKEN = os.environ.get("environment variable")  # Use environment variable for security
+BOT_TOKEN = os.environ.get("BOT_TOKEN")  # Use environment variable for security
 PASSKEY_BASIC = "AjdJe62BHkaie"
 PASSKEY_PREMIUM = "Sushru73TyaMisGHn"
 
